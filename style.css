@@ -1,33 +1,100 @@
-.clearfix::after {
-    content: " ";
-    display: block;
-    clear: both;
-  }
-
 body {
     font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
-color: #777;
-background: #777;
-width: 960px;
-height: 18px;
+    color: #777;
+    background: #777;
+    width: 960px;
+    font-size: 18px;
+    text-align: center
 } 
+
 header {
     background: #ebebeb;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+
 }
 nav {
     background: #ebebeb;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 100px;
+    width: 100%;
+    text-align: center;
 }
 section {
     background: #ebebeb;
     width: 495px;
-}
+    height: 325px;
+    left: 10px;
+    z-index: 0;
+    margin: 10px;
+    }
+
 aside {
     background: #ebebeb;
-}
-footer {
-    background: #ebebeb;
+    float: right;
+    width: 435px;
+    height: 325px;
+    right: 0px;
+
 }
 article {
     color: #ebebeb;
     background: #777;
+    float: left;
+    width: 400px;
+    height: 225px;
+    bottom: 25%;
+    left: 75px;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+}
+
+div {
+    margin: 10px;
+    z-index: 2;
+    bottom: 30%;
+}
+h1 {
+    margin: 10px;
+    color: #777;
+    background: #ebebeb;    
+    height: 50px;
+    width: 375px;
+    position: absolute;
+    top: 25%;
+    left: 5px;
+}
+p {
+    margin: 10px;
+    color: #777;
+    background: #ebebeb;
+    height: 50px;
+    width: 375px;
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    
+}
+
+footer {
+    background: #ebebeb;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: absolute;
+    bottom: 0px;
+    width: 960px;
+    left: 10px;
+    height: 100px;
+    float: left;
+    
+}
+.footer {
+    width: 960px;
+    border: 15px;
+
 }
