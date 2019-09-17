@@ -4,17 +4,18 @@ body {
     background: #777;
     width: 960px;
     font-size: 18px;
-    text-align: center
+    text-align: center;
+    position: absolute;
+    left: 120px;
 } 
 
 header {
     background: #ebebeb;
-    margin-top: 10px;
-    margin-bottom: 10px;
     height: 100px;
     width: 100%;
     text-align: center;
-
+    position: relative;
+ 
 }
 nav {
     background: #ebebeb;
@@ -28,9 +29,10 @@ section {
     background: #ebebeb;
     width: 495px;
     height: 325px;
-    left: 10px;
+    left: 0px;
     z-index: 0;
     margin: 10px;
+    position: relative;
     }
 
 aside {
@@ -38,7 +40,8 @@ aside {
     float: right;
     width: 435px;
     height: 325px;
-    right: 0px;
+    position: relative;
+    
 
 }
 article {
@@ -47,8 +50,8 @@ article {
     float: left;
     width: 400px;
     height: 225px;
-    bottom: 25%;
-    left: 75px;
+    left: 45px;
+    bottom: 50px;
     position: absolute;
     z-index: 1;
     text-align: center;
@@ -60,12 +63,13 @@ div {
     bottom: 30%;
 }
 h1 {
-    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
     color: #777;
     background: #ebebeb;    
     height: 50px;
     width: 375px;
-    position: absolute;
+    position: relative;
     top: 25%;
     left: 5px;
 }
@@ -85,16 +89,14 @@ footer {
     background: #ebebeb;
     margin-top: 10px;
     margin-bottom: 10px;
-    position: absolute;
     bottom: 0px;
-    width: 960px;
-    left: 10px;
+    width: 100%;
+    left: 0px;
     height: 100px;
-    float: left;
-    
+    position: relative;
+    bottom: 0px;
 }
-.footer {
-    width: 960px;
-    border: 15px;
 
-}
+
+
+
